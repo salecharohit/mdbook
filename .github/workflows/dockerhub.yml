@@ -15,4 +15,3 @@ jobs:
       run: docker tag mdbook ${{ secrets.DOCKERHUB_USERNAME }}/mdbook:latest
     - name: Push
       run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/mdbook:latest
-      
